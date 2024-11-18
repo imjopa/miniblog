@@ -1,0 +1,250 @@
+# Portuguese translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-10-30 19:47-0300\n"
+"PO-Revision-Date: 2024-10-19 19:47-0300\n"
+"Last-Translator: \n"
+"Language: pt\n"
+"Language-Team: pt <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: app/__init__.py:24
+msgid "Please log in to access this page."
+msgstr "Por favor, faça seu login para acessar essa página."
+
+#: app/forms.py:13 app/forms.py:20 app/forms.py:55
+msgid "Username"
+msgstr "Nome de usuário"
+
+#: app/forms.py:14 app/forms.py:22 app/forms.py:47
+msgid "Password"
+msgstr "Senha"
+
+#: app/forms.py:15
+msgid "Remember Me"
+msgstr "Lembrar de mim"
+
+#: app/forms.py:16 app/routes.py:91 app/templates/login.html:5
+msgid "Sign In"
+msgstr "Entrar"
+
+#: app/forms.py:21 app/forms.py:42
+msgid "Email"
+msgstr ""
+
+#: app/forms.py:24 app/forms.py:49
+msgid "Repeat Password"
+msgstr "Repita a senha"
+
+#: app/forms.py:26 app/routes.py:112 app/templates/register.html:5
+msgid "Register"
+msgstr "Cadastrar"
+
+#: app/forms.py:32 app/forms.py:69
+msgid "Please use a different username."
+msgstr "Use um nome de usuário diferente."
+
+#: app/forms.py:38
+msgid "Please use a different email address."
+msgstr "Use um endereço de e-mail diferente."
+
+#: app/forms.py:43 app/forms.py:51
+msgid "Request Password Reset"
+msgstr "Requisitar Redefinição de Senha"
+
+#: app/forms.py:56
+msgid "About me"
+msgstr "Sobre mim"
+
+#: app/forms.py:58 app/forms.py:79
+msgid "Submit"
+msgstr "Postar"
+
+#: app/forms.py:77
+msgid "Say something"
+msgstr "Diga algo"
+
+#: app/routes.py:45
+msgid "Your post is now live!"
+msgstr "Seu post foi enviado!"
+
+#: app/routes.py:54 app/templates/base.html:27
+msgid "Home"
+msgstr "Início"
+
+#: app/routes.py:70 app/templates/base.html:30
+msgid "Explore"
+msgstr "Explorar"
+
+#: app/routes.py:84
+msgid "Invalid username or password"
+msgstr "Login e/ou senha inválido(s). Tente novamente."
+
+#: app/routes.py:110
+msgid "Congratulations, you are now a registered user!"
+msgstr "Parabéns! Você agora é um usuário registrado"
+
+#: app/routes.py:126
+msgid "Check your email for the instructions to reset your password"
+msgstr "Verifique seu email e acompanhe as instruções para redefinir sua senha"
+
+#: app/routes.py:129 app/templates/reset_password.html:5
+msgid "Reset Password"
+msgstr "Redefinir Senha"
+
+#: app/routes.py:143
+msgid "Your password has been reset."
+msgstr "Sua senha foi redefinida."
+
+#: app/routes.py:174
+msgid "Your changes have been saved."
+msgstr "Suas alterações foram salvas."
+
+#: app/routes.py:179 app/templates/edit_profile.html:5
+msgid "Edit Profile"
+msgstr "Edite seu Perfil"
+
+#: app/routes.py:191 app/routes.py:212
+#, python-format
+msgid "User %(username)s not found."
+msgstr "Usuário %(username)s não encontrado"
+
+#: app/routes.py:194
+msgid "You cannot follow yourself!"
+msgstr "Você não pode seguir a si mesmo!"
+
+#: app/routes.py:198
+#, python-format
+msgid "You are following %(username)s!"
+msgstr "Você está seguindo %(username)s!"
+
+#: app/routes.py:215
+msgid "You cannot unfollow yourself!"
+msgstr "Você não pode parar de seguir a si mesmo!"
+
+#: app/routes.py:219
+#, python-format
+msgid "You are not following %(username)s."
+msgstr "Você está não seguindo %(username)s"
+
+#: app/translate.py:8
+msgid "Error: the translation service is not configured."
+msgstr ""
+
+#: app/translate.py:18
+msgid "Error: the translation service failed."
+msgstr ""
+
+#: app/templates/404.html:4
+msgid "Not Found"
+msgstr "Não Encontrado"
+
+#: app/templates/404.html:5 app/templates/500.html:6
+msgid "Back"
+msgstr "Voltar"
+
+#: app/templates/500.html:4
+msgid "An unexpected error has occurred"
+msgstr "Ocorreu um erro inesperado"
+
+#: app/templates/500.html:5
+msgid "The administrator has been notified. Sorry for the inconvenience!"
+msgstr "O administrador foi notificado. Perdão pela inconveniência!"
+
+#: app/templates/_post.html:14
+#, python-format
+msgid "%(username)s said %(when)s"
+msgstr "%(username)s disse %(when)s"
+
+#: app/templates/_post.html:25
+msgid "Translate"
+msgstr ""
+
+#: app/templates/base.html:9
+msgid "Welcome to Microblog"
+msgstr "Bem Vindo ao Microblog"
+
+#: app/templates/base.html:36
+msgid "Login"
+msgstr "Entrar"
+
+#: app/templates/base.html:40
+msgid "Profile"
+msgstr "Perfil"
+
+#: app/templates/base.html:43
+msgid "Logout"
+msgstr "Sair"
+
+#: app/templates/index.html:5
+#, python-format
+msgid "Hi, %(username)s!"
+msgstr "Olá, %(username)s!"
+
+#: app/templates/index.html:16 app/templates/user.html:41
+msgid "Newer posts"
+msgstr "Posts mais novos"
+
+#: app/templates/index.html:21 app/templates/user.html:46
+msgid "Older posts"
+msgstr "Posts mais antigos"
+
+#: app/templates/login.html:7
+msgid "New User?"
+msgstr "Novo Usuário?"
+
+#: app/templates/login.html:7
+msgid "Click to Register!"
+msgstr "Clique Aqui Para Se Registrar!"
+
+#: app/templates/login.html:9
+msgid "Forgot Your Password?"
+msgstr "Esqueceu sua Senha?"
+
+#: app/templates/login.html:10
+msgid "Click to Reset It"
+msgstr "Clique para Redefinir"
+
+#: app/templates/reset_password_request.html:5
+msgid "Reset Your Password"
+msgstr "Redefina sua Senha"
+
+#: app/templates/user.html:11
+msgid "Last seen on"
+msgstr "Ultima vez online"
+
+#: app/templates/user.html:13
+#, python-format
+msgid "%(count)d followers"
+msgstr "%(count)d Seguidores"
+
+#: app/templates/user.html:13
+#, python-format
+msgid "%(count)d following"
+msgstr "%(count)d Seguindo"
+
+#: app/templates/user.html:15
+msgid "Edit your profile"
+msgstr "Edite seu Perfil"
+
+#: app/templates/user.html:20
+msgid "Follow"
+msgstr "Seguir"
+
+#: app/templates/user.html:27
+msgid "Unfollow"
+msgstr "Deixar de Seguir"
+
+#~ msgid "User"
+#~ msgstr "Usuário"
+
